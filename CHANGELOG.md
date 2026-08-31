@@ -2,4 +2,4 @@
 
 ## 0.0.1
 
-- Primera versión de Stencil Definition Navigator.
+- First release of Stencil Definition Navigator.

@@ -1,20 +1,20 @@
 # Stencil Definition Navigator
 
-Extensión de VS Code para mejorar la navegación entre tags JSX de Stencil y sus componentes `.tsx`.
+VS Code extension that improves navigation between Stencil JSX tags and their `.tsx` components.
 
-## Compilar
+## Build
 
 ```bash
 npm install
 npm run watch
 ```
 
-## Probar en VS Code
+## Test in VS Code
 
-1. Abre este proyecto en VS Code.
-2. Pulsa `F5` para iniciar una ventana de Extension Development Host.
-3. En un proyecto Stencil, abre un `.tsx` que contenga, por ejemplo, `<mi-boton />`.
-4. Usa `Ctrl+Click` o `F12` sobre `mi-boton`. Si existe `mi-boton.tsx`, aparecerá como definición adicional y navegará al identificador de la clase o función correspondiente.
-5. En el decorador `@Component({ tag: 'mi-boton' })` o en la declaración de su clase, ejecuta **Find All References** para localizar sus apariciones en `.tsx`, `.html` y `.css`.
+1. Open this project in VS Code.
+2. Press `F5` to start an Extension Development Host window.
+3. In a Stencil project, open a `.tsx` file containing, for example, `<mi-boton />`.
+4. Use `Ctrl+Click` or `F12` on `mi-boton`. If `mi-boton.tsx` exists, it will appear as an additional definition and navigation will go to the corresponding class or function identifier.
+5. On the `@Component({ tag: 'mi-boton' })` decorator or its class declaration, run **Find All References** to locate occurrences in `.tsx`, `.html`, and `.css` files.
 
-La extensión no añade comandos, atajos ni menús: se integra únicamente mediante los providers nativos de definición y referencias, y solo se activa para `typescriptreact`.
+The extension does not add commands, keybindings, or menus. It integrates only through VS Code's native definition and reference providers, and activates only for `typescriptreact`.
