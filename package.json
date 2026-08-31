@@ -1,0 +1,29 @@
+{
+  "name": "stencil-definition",
+  "displayName": "Stencil Definition Navigator",
+  "description": "Añade navegación entre tags JSX de Stencil y sus implementaciones.",
+  "version": "0.0.1",
+  "publisher": "lucas-pujia",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/vscode": "^1.92.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.5.0"
+  }
+}
