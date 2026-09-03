@@ -2,9 +2,10 @@
   "name": "stencil-definition",
   "displayName": "Stencil Definition Navigator",
   "description": "Adds navigation between Stencil JSX tags and their implementations.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "lucas-pujia",
   "license": "MIT",
+  "icon": "media/logo.jpg",
   "engines": {
     "vscode": "^1.92.0"
   },
